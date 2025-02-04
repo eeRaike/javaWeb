@@ -47,9 +47,9 @@ public class MetodomultiplicacaoTest {
     }
     
     @Test
-    public void expect30multiply15w3(){
+    public void expect30multiply15w3FailureExpected(){
         Metodomultiplicacao op = new Metodomultiplicacao();
-        assertEquals(30,op.multiplicar(15, 2));
+        assertEquals(30,op.multiplicar(15, 3));
     
     
     }
